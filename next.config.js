@@ -1,6 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+module.exports = {
+  images: {
+    domains: ['cdn.dribbble.com', 'dribbble.com']
+  }
 }
-
-module.exports = nextConfig

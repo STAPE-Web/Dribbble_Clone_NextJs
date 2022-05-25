@@ -1,16 +1,101 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+::selection {
+  background: #ea4c89;
+  color: #fff;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  outline: none;
+}
+
+.list {
+  color: #6e6d7a;
+}
+
+.list li:hover {
+  color: #0d0c22;
+  cursor: pointer;
+}
+
+.TextIcons {
+  color: #9e9ea7;
+}
+
+.FormBg {
+  background: #F3F3F4;
+  border: 0.1px solid #F3F3F4;
+  transition: 0.5s;
+}
+
+.FormBg:hover {
+  background: #fff;
+  border: 0.1px solid rgba(234, 76, 137, 0.3);
+}
+
+.button {
+  background: #ea4c89;
+}
+
+.button:disabled {
+  background-color: rgba(234, 76, 137, 0.5);
+  cursor: no-drop;
+}
+
+.button:hover {
+  background-color: rgba(234, 76, 137, 0.5);
+}
+
+.FilterBg {
+  background: #F3F3F4;
+}
+
+.black {
+  color: #0d0c22;
+}
+
+.stats {
+  color: #3d3d4e;
+}
+
+.short {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent);
+  transition: 0.5s;
+}
+
+.onTop {
+  color: #A1A1A1;
+}
+
+.borderApp {
+  border-color: #F3F3F4;
+}
+
+.upload {
+  border: 2px dashed #e7e7e9;
+}
+
+.color {
+  color: #ea4c89;
+}
+
+.bgShort {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.close {
+  color: #dbdbde;
+}
+
+.shadow {
+  box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
 }
