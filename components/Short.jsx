@@ -50,8 +50,7 @@ const Short = () => {
                         </div>
                     </div>
                 </Link>
-            ))
-            }
+            ))}
         </div >
     )
 }
