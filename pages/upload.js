@@ -68,8 +68,8 @@ export default function Upload() {
                     value={textarea}
                     onChange={e => setTextarea(e.target.value)}
                     placeholder='Write what went into this shot, and anything else you’d like to mention'
-                    className='text-[18px] my-[48px] w-full resize-none h-[200px]'
-                ></textarea>
+                    className='text-[18px] my-[48px] w-full resize-none h-[200px]'>
+                </textarea>
             </div>
         </div>
     )
