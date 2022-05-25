@@ -44,7 +44,7 @@ const Header = () => {
                     <button className='py-[10px] px-[16px] button text-white rounded-lg font-medium text-[14px]'>Upload</button>
                 </Link>
             </div>
-        </header >
+        </header>
     )
 }
 
