@@ -51,7 +51,7 @@ const Short = () => {
                     </div>
                 </Link>
             ))}
-        </div >
+        </div>
     )
 }
 
