@@ -9,7 +9,6 @@ import { SearchIcon } from '@heroicons/react/outline'
 import { useRef } from 'react'
 
 export default function Search() {
-
     const router = useRouter()
     const input = useRef()
     const submit = (e) => {
